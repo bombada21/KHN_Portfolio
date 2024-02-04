@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>produce02</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+</head>
+<body>
+  <h1 class="logo"><img src="./images/logo.png" alt=""> | 레이아웃 디자인</h1>
+   <div class="swiper mySwiper">
+       <div class="swiper-wrapper">
+         <div class="swiper-slide"><img src="./images/m07.jpg" alt=""></div>
+         <div class="swiper-slide"><img src="./images/m10.jpg" alt=""></div>
+         <div class="swiper-slide"><img src="./images/m11.jpg" alt=""></div>
+         <div class="swiper-slide"><img src="./images/m12.jpg" alt=""></div>
+         <div class="swiper-slide"><img src="./images/m13.jpg" alt=""></div>
+         <div class="swiper-slide"><img src="./images/m14.jpg" alt=""></div>
+         <div class="swiper-slide"><img src="./images/m08.jpg" alt=""></div>
+         <div class="swiper-slide"><img src="./images/m09.jpg" alt=""></div>
+         <div class="swiper-slide"><img src="./images/m15.jpg" alt=""></div>
+         <div class="swiper-slide"><img src="./images/m17.jpg" alt=""></div>
+         <div class="swiper-slide"><img src="./images/m18.jpg" alt=""></div>
+         <div class="swiper-slide"><img src="./images/m19.jpg" alt=""></div>
+         <div class="swiper-slide"><img src="./images/m20.jpg" alt=""></div>
+         <div class="swiper-slide"><img src="./images/m21.jpg" alt=""></div>
+         
+         <div class="swiper-slide"><img src="./images/m16_01.png" alt=""></div>
+         <div class="swiper-slide"><img src="./images/m16_02.png" alt=""></div>
+         <div class="swiper-slide"><img src="./images/m16_03.jpg" alt=""></div>
+       </div>
+       <div class="swiper-pagination"></div>
+   </div>
+
+   <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 2,
+      spaceBetween: 30,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    });
+  </script>
+</body>
+</html>
