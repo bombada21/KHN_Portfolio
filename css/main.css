@@ -110,6 +110,10 @@ nav li a {
     font-weight: bold;
 }
 
+nav li a:hover{
+	color: #fba919;
+}
+
 #main #one{
 	margin-top: 77px;
 	height: 1080px;
