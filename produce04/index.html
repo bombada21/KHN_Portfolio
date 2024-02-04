@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template Design 01</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+</head>
+<body>
+   <div class="swiper mySwiper">
+    <h1 class="logo"><img src="./images/logo.png" alt=""> | Template Design 01</h1>
+       <div class="swiper-wrapper">
+         <div class="swiper-slide"><img src="images/t01.jpg" alt=""></div>
+         <div class="swiper-slide"><img src="images/t02.jpg" alt=""></div>
+         <div class="swiper-slide"><img src="images/t03.jpg" alt=""></div>
+         <div class="swiper-slide"><img src="images/t04.jpg" alt=""></div>
+         <div class="swiper-slide"><img src="images/t05.jpg" alt=""></div>
+         <div class="swiper-slide"><img src="images/t06.jpg" alt=""></div>
+         <div class="swiper-slide"><img src="images/t07.jpg" alt=""></div>
+         <div class="swiper-slide"><img src="images/t08.jpg" alt=""></div>
+         <div class="swiper-slide"><img src="images/t09.jpg" alt=""></div>
+         <div class="swiper-slide"><img src="images/t10.jpg" alt=""></div>
+       </div>
+       <div class="swiper-pagination"></div>
+   </div>
+
+   <script>
+    var swiper = new Swiper(".mySwiper", {
+      grabCursor: true,
+      effect: "creative",
+      creativeEffect: {
+        prev: {
+          shadow: true,
+          translate: [0, 0, -400],
+        },
+        next: {
+          translate: ["100%", 0, 0],
+        },
+      },
+    });
+    var swiper2 = new Swiper(".mySwiper2", {
+      grabCursor: true,
+      effect: "creative",
+      creativeEffect: {
+        prev: {
+          shadow: true,
+          translate: ["-120%", 0, -500],
+        },
+        next: {
+          shadow: true,
+          translate: ["120%", 0, -500],
+        },
+      },
+    });
+    var swiper3 = new Swiper(".mySwiper3", {
+      grabCursor: true,
+      effect: "creative",
+      creativeEffect: {
+        prev: {
+          shadow: true,
+          translate: ["-20%", 0, -1],
+        },
+        next: {
+          translate: ["100%", 0, 0],
+        },
+      },
+    });
+    var swiper4 = new Swiper(".mySwiper4", {
+      grabCursor: true,
+      effect: "creative",
+      creativeEffect: {
+        prev: {
+          shadow: true,
+          translate: [0, 0, -800],
+          rotate: [180, 0, 0],
+        },
+        next: {
+          shadow: true,
+          translate: [0, 0, -800],
+          rotate: [-180, 0, 0],
+        },
+      },
+    });
+    var swiper5 = new Swiper(".mySwiper5", {
+      grabCursor: true,
+      effect: "creative",
+      creativeEffect: {
+        prev: {
+          shadow: true,
+          translate: ["-125%", 0, -800],
+          rotate: [0, 0, -90],
+        },
+        next: {
+          shadow: true,
+          translate: ["125%", 0, -800],
+          rotate: [0, 0, 90],
+        },
+      },
+    });
+    var swiper6 = new Swiper(".mySwiper6", {
+      grabCursor: true,
+      effect: "creative",
+      creativeEffect: {
+        prev: {
+          shadow: true,
+          origin: "left center",
+          translate: ["-5%", 0, -200],
+          rotate: [0, 100, 0],
+        },
+        next: {
+          origin: "right center",
+          translate: ["5%", 0, -200],
+          rotate: [0, -100, 0],
+        },
+      },
+    });
+  </script>
+</body>
+</html>
