@@ -430,7 +430,7 @@ width: 551px;
 	width: 300px;
 }
 
-.six .dp_wrap div{
+#six .dp_wrap div{
     display: flex;
     border-radius: 10px;
     height: 300px;
@@ -443,7 +443,7 @@ width: 551px;
     justify-content: center;
     text-align: center;
 }
-.six .dp_wrap div a{
+#six .dp_wrap div a{
     display: block;
     padding: 15px 20px;
     background-color: #fff;
