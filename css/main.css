@@ -301,6 +301,7 @@ nav li a:hover{
 	background-color: #0087af;
 }
 .main_site{
+width: 551px;
     display: flex;
     flex-direction: row;
     align-items: center;
