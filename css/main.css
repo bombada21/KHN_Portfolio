@@ -264,10 +264,9 @@ nav li a:hover{
 }
 
 #four .four_list{
-	display: flex;
+    display: flex;
     flex-direction: column;
     justify-content: center;
-	margin-right: 10%;
 }
 .mimg{
 	width: 40%;
