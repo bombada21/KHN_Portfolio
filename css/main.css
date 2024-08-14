@@ -375,7 +375,7 @@ width: 551px;
 
 #six{
     display: flex;
-    height: 900px;
+    height: 700px;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
