@@ -457,13 +457,13 @@ width: 551px;
 #six .dp_wrap > div h3{color: #fff;}
 #six .dp_wrap > div p{color: #eee;}
 
-#six .dp_wrap h3 {
+#six .dp_wrap > div h3 {
     margin-top: 1.3rem;
     font-size: 20px;
     font-weight: 600;
     color: #333;
 }
-#six .dp_wrap p{
+#six .dp_wrap > div p{
     color: #757a7f;
     font-weight: 300;
     padding-top: 15px;
