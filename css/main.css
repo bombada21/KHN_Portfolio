@@ -429,6 +429,28 @@ width: 551px;
 #six .six2 a img{
 	width: 300px;
 }
+
+.six .dp_wrap div{
+    display: flex;
+    border-radius: 10px;
+    height: 300px;
+    width: 25%;
+    background-color: #fff;
+    margin-right: 25px;
+    border: 1px solid #ddd;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.six .dp_wrap div a{
+    display: block;
+    padding: 15px 20px;
+    background-color: #fff;
+    color: #333;
+    border: 1px solid #bbbbbb;
+    border-radius: 10px;
+}
 /* six */
 
 #seven{
