@@ -454,7 +454,12 @@ width: 551px;
     background-color: #fff;
     color: #333;
 }
-#six .dp_wrap h3 {margin-top: 1.3rem;}
+#six .dp_wrap h3 {
+    margin-top: 1.3rem;
+    font-size: 20px;
+    font-weight: 600;
+    color: #333;
+}
 /* six */
 
 #seven{
