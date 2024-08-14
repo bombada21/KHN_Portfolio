@@ -451,9 +451,13 @@ width: 551px;
 #six .dp_wrap > div > a{
     display: block;
     padding: 15px 20px;
-    background-color: #fff;
     color: #333;
 }
+#six .dp_wrap > div:hover{background-color: #0b653d;}
+#six .dp_wrap > div:hover a {color: #fff;}
+#six .dp_wrap h3{color: #fff;}
+#six .dp_wrap p{color: #eee;}
+
 #six .dp_wrap h3 {
     margin-top: 1.3rem;
     font-size: 20px;
