@@ -449,14 +449,13 @@ width: 551px;
     margin-right: 25px;
     border: 1px solid #ddd;
     align-content: center;
-    align-items: center;
-    justify-content: center;
     text-align: center;
+    border-radius: 10px;
 }
-#six .dp_wrap > div:hover{background-color: #0b653d;}
-#six .dp_wrap > div:hover a {color: #fff;}
-#six .dp_wrap h3{color: #fff;}
-#six .dp_wrap p{color: #eee;}
+#six .dp_wrap > div:hover{}
+#six .dp_wrap > div:hover a {color: #fff; background-color: #0b653d;}
+#six .dp_wrap > div h3{color: #fff;}
+#six .dp_wrap > div p{color: #eee;}
 
 #six .dp_wrap h3 {
     margin-top: 1.3rem;
