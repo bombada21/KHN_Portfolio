@@ -435,13 +435,14 @@ width: 551px;
     justify-content: center;
     margin-top: 4rem;
 }
-
+#six .dp_wrap > div{
+    display: flex;
+    border-radius: 10px;
+}
 #six .dp_wrap > div > a{
     display: block;
     padding: 15px 20px;
     color: #333;
-	display: flex;
-    border-radius: 10px;
     height: 300px;
     width: 20%;
     background-color: #fff;
