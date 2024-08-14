@@ -301,12 +301,12 @@ nav li a:hover{
 	background-color: #0087af;
 }
 .main_site{
-	width: 300px;
-	display: flex;
-    flex-wrap: nowrap;
-    flex-direction: column;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
 }
-.main_site li{margin-bottom: 15px; display: flex; flex-direction: row;}
+.main_site li{margin-bottom: 15px; display: flex; flex-direction: row; margin-right: 10px;}
 .main_site span img{width: 20px; vertical-align: sub; margin-left: 30px;}
 
 .main_site li a{
