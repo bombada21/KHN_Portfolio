@@ -454,8 +454,8 @@ width: 551px;
 }
 #six .dp_wrap > div:hover{}
 #six .dp_wrap > div:hover a {color: #fff; background-color: #0b653d;}
-#six .dp_wrap > div h3{color: #fff;}
-#six .dp_wrap > div p{color: #eee;}
+#six .dp_wrap > div:hover h3{color: #fff;}
+#six .dp_wrap > div:hover p{color: #eee;}
 
 #six .dp_wrap > div h3 {
     margin-top: 1.3rem;
