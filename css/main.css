@@ -460,6 +460,10 @@ width: 551px;
     font-weight: 600;
     color: #333;
 }
+#six .dp_wrap p{
+	color: #757a7f;
+	font-weight: 300;
+}
 /* six */
 
 #seven{
