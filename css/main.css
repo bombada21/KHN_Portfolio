@@ -374,14 +374,14 @@ width: 551px;
 /* five */
 
 #six{
-	display: flex;
-    height: 1600px;
+    display: flex;
+    height: 900px;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     align-content: center;
-	background: linear-gradient(#faf6ea, #fffdf5);
+    background: linear-gradient(#faf6ea, #fffdf5);
 
 }
 
@@ -454,6 +454,7 @@ width: 551px;
     background-color: #fff;
     color: #333;
 }
+#six .dp_wrap > div > span{margin-bottom: 2rem;}
 /* six */
 
 #seven{
